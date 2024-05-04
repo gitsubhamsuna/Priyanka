@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Connect to the datbase]]>
+    </line>
+    <line>
+      <![CDATA[Browser open SuccessFully]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[addDoctorTest Execution Started ]]>
+    </line>
+    <line>
+      <![CDATA[Doctor is added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Doctor is Added]]>
+    </line>
+    <line>
+      <![CDATA[addDoctorTest Execution Successfull ]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Dis-Connect to the datbase]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-01T13:38:28 IST" name="Default suite" finished-at="2024-02-01T13:38:36 IST" duration-ms="7878">
+    <groups>
+      <group name="regression">
+        <method signature="AddDoctorTest.addDoctorTest()[pri:0, instance:com.healthcare.Medicave.AdminModule.AddDoctorTest@71d44a3]" name="addDoctorTest" class="com.healthcare.Medicave.AdminModule.AddDoctorTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AddDoctorTest.addDoctorTest()[pri:0, instance:com.healthcare.Medicave.AdminModule.AddDoctorTest@71d44a3]" name="addDoctorTest" class="com.healthcare.Medicave.AdminModule.AddDoctorTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-02-01T13:38:28 IST" name="Default test" finished-at="2024-02-01T13:38:36 IST" duration-ms="7878">
+      <class name="com.healthcare.Medicave.AdminModule.AddDoctorTest">
+        <test-method is-config="true" signature="config_BS()[pri:0, instance:com.healthcare.Medicave.AdminModule.AddDoctorTest@71d44a3]" started-at="2024-02-01T13:38:28 IST" name="config_BS" finished-at="2024-02-01T13:38:28 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connect to the datbase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- config_BS -->
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.healthcare.Medicave.AdminModule.AddDoctorTest@71d44a3]" started-at="2024-02-01T13:38:29 IST" name="config_BC" finished-at="2024-02-01T13:38:31 IST" duration-ms="2679" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser open SuccessFully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:com.healthcare.Medicave.AdminModule.AddDoctorTest@71d44a3]" started-at="2024-02-01T13:38:31 IST" name="loginApplication" finished-at="2024-02-01T13:38:32 IST" duration-ms="826" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="addDoctorTest()[pri:0, instance:com.healthcare.Medicave.AdminModule.AddDoctorTest@71d44a3]" started-at="2024-02-01T13:38:32 IST" name="addDoctorTest" finished-at="2024-02-01T13:38:36 IST" duration-ms="3711" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[addDoctorTest Execution Started ]]>
+            </line>
+            <line>
+              <![CDATA[Doctor is added successfully]]>
+            </line>
+            <line>
+              <![CDATA[Doctor is Added]]>
+            </line>
+            <line>
+              <![CDATA[addDoctorTest Execution Successfull ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addDoctorTest -->
+        <test-method is-config="true" signature="logoutApllication()[pri:0, instance:com.healthcare.Medicave.AdminModule.AddDoctorTest@71d44a3]" started-at="2024-02-01T13:38:36 IST" name="logoutApllication" finished-at="2024-02-01T13:38:36 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutApllication -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.healthcare.Medicave.AdminModule.AddDoctorTest@71d44a3]" started-at="2024-02-01T13:38:36 IST" name="browserClose" finished-at="2024-02-01T13:38:36 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="config_AS()[pri:0, instance:com.healthcare.Medicave.AdminModule.AddDoctorTest@71d44a3]" started-at="2024-02-01T13:38:37 IST" name="config_AS" finished-at="2024-02-01T13:38:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dis-Connect to the datbase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- config_AS -->
+      </class> <!-- com.healthcare.Medicave.AdminModule.AddDoctorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

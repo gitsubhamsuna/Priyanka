@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	 <groups>
+		<run>
+			<include name="regression"></include>
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="com.genaricLibUtilities.CustomListeners"></listener>
+		<listener class-name="com.genaricLibUtilities.Custom_IAnnonation"></listener>
+	</listeners>
+  <test thread-count="5" parallel="tests" name="Test">
+    <classes>
+      <class name="com.healthcare.Medicave.DoctorModule.AddPatientTest"/>
+      <class name="com.healthcare.Medicave.DoctorModule.ManagePatientTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

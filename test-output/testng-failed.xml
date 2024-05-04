@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.healthcare.Medicave.AdminModule.AddDoctorTest">
+        <methods>
+          <include name="browserClose"/>
+          <include name="addDoctorTest"/>
+          <include name="loginApplication"/>
+          <include name="logoutApllication"/>
+          <include name="config_AS"/>
+          <include name="config_BS"/>
+          <include name="config_BC"/>
+        </methods>
+      </class> <!-- com.healthcare.Medicave.AdminModule.AddDoctorTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
